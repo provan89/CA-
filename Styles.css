@@ -6,6 +6,9 @@ body {
     color: #FFFFFF;
 }
 
+h1{
+    font-size: 36px;
+}
 h2 {
     color: #FFFFFF;
 }
@@ -17,14 +20,16 @@ header {
     display: flex;
     align-items: center;
     font-size: 24px;
+    font-weight: bold;
     
 }
 
 .logo img {
-    width: 120px; 
+    width: 160px; 
     height: auto;
     margin-left: 20px; 
 }
+
 
 nav ul {
     list-style: none;
@@ -34,6 +39,7 @@ nav ul {
 
 nav ul li {
     margin: 0 15px; 
+    font-size: 30px;
 }
 
 nav ul li a {
@@ -42,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00; 
+    color: #14d353; 
 }
 
 .video-container {
@@ -94,7 +100,7 @@ nav ul li a:hover {
 .movie-list-item-title{
 background-color: #151111;
 padding: 0 10px;
-font-size: 32px;
+font-size: 30px;
 font-weight: bold;
 position: absolute;
 top: 40%;
