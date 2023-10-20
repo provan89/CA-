@@ -178,3 +178,9 @@ transition: 1s all ease-in-out;
         background-color: #14d353;
         color: #FFFFFF;
     }
+
+    a.movie-link {
+        display: inline-block; 
+        text-decoration: none; 
+        color: inherit; 
+    }
