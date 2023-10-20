@@ -74,43 +74,26 @@ nav ul li a:hover {
 
 }
 
-.abouttxt{
+.abouttxt,
+.abouttxt2,
+.abouttxt3,
+.abouttxt4 {
     text-align: left;
-    display: block;
-    padding: 0 400px;
-    width: fit-content;
+    max-width: 800px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the text horizontally */
     font-size: 30px;
-    margin: 0   auto;
     margin-bottom: 30px;
     margin-top: 50px;
 }
 
-.abouttxt2{
-    text-align: left;
-    display: block;
-    padding: 0 400px;
-    width: fit-content;
-    font-size: 30px;
-    margin: 0   auto;
-    margin-bottom: 30px;
-}
 
-.abouttxt3{
-    text-align: left;
-    display: block;
-    padding: 0 400px;
-    width: fit-content;
-    font-size: 30px;
-    margin: 0   auto;
-    margin-bottom: 30px;   
-}
 
-.abouttxt4{
-    text-align: left;
-    display: block;
-    padding: 0 400px;
-    width: fit-content;
-    font-size: 30px;
-    margin: 0   auto;
-    margin-bottom: 30px;
+@media (max-width: 768px) {
+    .abouttxt,
+    .abouttxt2,
+    .abouttxt3,
+    .abouttxt4 {
+        width: 90%; /* Adjust the width for smaller screens */
+        padding: 0; /* Remove padding for smaller screens if necessary */
+    }
 }
