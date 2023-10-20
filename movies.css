@@ -16,16 +16,16 @@ h2 {
 header {
     background-color: #151111; 
     color: #FFFFFF; 
-    padding: 1rem;
+    padding: 0.2rem;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     
 }
 
 .logo img {
-    width: 160px; 
+    width: 90px; 
     height: auto;
     margin-left: 20px; 
 }
@@ -39,7 +39,7 @@ nav ul {
 
 nav ul li {
     margin: 0 15px; 
-    font-size: 30px;
+    font-size: 18px;
 }
 
 nav ul li a {
@@ -50,6 +50,7 @@ nav ul li a {
 nav ul li a:hover {
     color: #14d353; 
 }
+
 
 .gallery-title {
     font-size: 36px;

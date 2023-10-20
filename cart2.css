@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#000000;
+    font-family: 'roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 36px;
+}
+h2 {
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #151111; 
+    color: #FFFFFF; 
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.logo img {
+    width: 90px; 
+    height: auto;
+    margin-left: 20px; 
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+nav ul li a:hover {
+    color: #14d353; 
+}
+
+.green-text {
+    color: #00FF00; /* Set color to green */
+    font-weight: bold; /* Set font weight to bold */
+}
+
+/* Add this CSS to your cart2.css file */
+
+.godzilla-movie {
+    width: 130px; /* Set the width of the image as desired */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is a block element */
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.separator-line {
+    width: 100%; /* Make sure the separator line spans the full width */
+    height: 2px;
+    background-color: #888888;
+    margin-top: 10px; /* Add a margin on top of the separator line */
+    margin-bottom: 10px; /* Add a margin on the bottom of the separator line */
+}
+
+.intro{
+    max-width: 500px;
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: -200px;
+}
+
+.Checkout {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 400px; 
+    margin-top: -200px; 
+    position: flex;
+}
+
+.Checkout:hover {
+    background-color: #14d353;
+    color: #FFFFFF;
+}
+
+.your-cart{
+text-align: center;
+}
+
+
+form {
+    margin-bottom: 20px; 
+    width: 20%; 
+    margin-left: 100px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: -20px; 
+    font-weight: bold; 
+    font-size: 30px; 
+}
+
+.input-field,
+.input-field-ccv {
+    height: 60px; 
+    font-size: 30px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+}
+
+.input-field-ccv {
+    width: 33.33%; 
+}
+
+.logoend{
+    max-width: 10%;
+    margin-top: -400px;
+}
