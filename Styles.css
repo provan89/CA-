@@ -4,6 +4,7 @@ body {
     background-color:#000000;
     font-family: 'roboto', sans-serif;
     color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 h1{
@@ -53,7 +54,7 @@ nav ul li a:hover {
 
 .video-container {
     width: 100%;
-    height: 55vh;
+    height: 65vh;
     margin-bottom: 10px;
 }
 
