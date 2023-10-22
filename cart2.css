@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    font-family: 'roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -52,26 +52,26 @@ nav ul li a:hover {
 }
 
 .green-text {
-    color: #00FF00; /* Set color to green */
-    font-weight: bold; /* Set font weight to bold */
+    color: #00FF00; 
+    font-weight: bold; 
 }
 
-/* Add this CSS to your cart2.css file */
+
 
 .godzilla-movie {
-    width: 130px; /* Set the width of the image as desired */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure the image is a block element */
+    width: 130px; 
+    height: auto; 
+    display: block; 
     margin-left: 100px;
     margin-top: 20px;
 }
 
 .separator-line {
-    width: 100%; /* Make sure the separator line spans the full width */
+    width: 100%; 
     height: 2px;
     background-color: #888888;
-    margin-top: 10px; /* Add a margin on top of the separator line */
-    margin-bottom: 10px; /* Add a margin on the bottom of the separator line */
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 }
 
 .intro{
@@ -121,14 +121,14 @@ text-align: center;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    width: 400px; /* Set the total width of the forms */
+    width: 400px; 
     margin-top: -200px;
     font-size: 30px;
     font-weight: bolder;
 }
 
 .forms-row form {
-    width: 100%; /* Make forms occupy full width */
+    width: 100%; 
     margin-bottom: 20px;
 }
 
@@ -143,22 +143,24 @@ text-align: center;
 }
 
 .input-field-ccv {
-    width: 33.33%; /* Set CCV form 1/3 of the width */
+    width: 33.33%; 
 }
 
-/* Rest of your CSS remains unchanged */
+
 
 
 .info-row {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20px; /* Add some space between forms and info */
+    margin-left: 20px; 
 }
 
 .lgo {
-    max-width: 200px;
-    margin-left: 610px;
+    width: 20%; 
+    display: block;
+    margin: 0 auto; 
+    padding-top: 140px;
 }
 
 .Checkout{
@@ -169,8 +171,7 @@ text-align: center;
 }
 
 .film{
-    margin-left: 610px;
-    margin-top: -20px;
-    font-size: 30px;
     text-align: center;
+    font-size: 30px;
+    margin-top: -5px;
 }

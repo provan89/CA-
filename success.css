@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    font-family: 'roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -82,7 +82,7 @@ h1{
 
 .logoend{
     max-width: 200px;
-    margin-left: 1180px;
+    margin-left: 46%;
     margin-top: 80px;
 }
 

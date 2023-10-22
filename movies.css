@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color:#000000;
-    font-family: 'roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
 }
@@ -57,7 +57,8 @@ nav ul li a:hover {
     font-size: 36px;
     color: #FFFFFF; 
     text-align: center;
-    margin-top: 8%;
+    margin-top: 2%;
+    padding-bottom: 15px;
 }
 
 .movie-list-container{
