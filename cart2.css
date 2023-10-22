@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#000000;
+    background-color: #000000;
     font-family: 'roboto', sans-serif;
     color: #FFFFFF;
 }
@@ -108,34 +108,69 @@ text-align: center;
 }
 
 
-form {
-    margin-bottom: 20px; 
-    width: 20%; 
-    margin-left: 100px; 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 230px;
+    margin-left: 100px;
 }
 
-label {
-    display: block; 
-    margin-bottom: -20px; 
-    font-weight: bold; 
-    font-size: 30px; 
+.forms-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 400px; /* Set the total width of the forms */
+    margin-top: -200px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.forms-row form {
+    width: 100%; /* Make forms occupy full width */
+    margin-bottom: 20px;
 }
 
 .input-field,
 .input-field-ccv {
-    height: 60px; 
-    font-size: 30px; 
-    width: 100%; 
-    box-sizing: border-box; 
-    margin-bottom: 20px; 
-    padding: 10px; 
+    height: 60px;
+    font-size: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .input-field-ccv {
-    width: 33.33%; 
+    width: 33.33%; /* Set CCV form 1/3 of the width */
 }
 
-.logoend{
-    max-width: 10%;
-    margin-top: -400px;
+/* Rest of your CSS remains unchanged */
+
+
+.info-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px; /* Add some space between forms and info */
+}
+
+.lgo {
+    max-width: 200px;
+    margin-left: 610px;
+}
+
+.Checkout{
+    margin-top: 40px;
+    margin-left: 85px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.film{
+    margin-left: 610px;
+    margin-top: -20px;
+    font-size: 30px;
+    text-align: center;
 }

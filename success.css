@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 36px;
+}
+h2 {
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #151111; 
+    color: #FFFFFF; 
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.logo img {
+    width: 90px; 
+    height: auto;
+    margin-left: 20px; 
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+nav ul li a:hover {
+    color: #14d353; 
+}
+
+.green-text {
+    color: #00FF00; /* Set color to green */
+    font-weight: bold; /* Set font weight to bold */
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+}
+.separator-line {
+    width: 100%;
+    height: 2px; 
+    background-color: #888888; 
+    margin-top: 25px;
+}
+
+.thank{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.enjoy{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.logoend{
+    max-width: 200px;
+    margin-left: 1180px;
+    margin-top: 80px;
+}
+
+.love{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
