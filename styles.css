@@ -182,6 +182,10 @@ footer ul li a:hover {
     color: #14d353;
 }
 
+footer nav ul li {
+    margin: 0 10px; 
+}
+
 
 
 /* CSS for screens 933px or larger */
