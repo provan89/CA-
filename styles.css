@@ -149,3 +149,63 @@ a.movie-link {
     text-decoration: none; 
     color: inherit; 
 }
+
+footer {
+    background-color: #151111;
+    color: #FFFFFF;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%; /* Make the footer 100% of the screen width */
+    box-sizing: border-box;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer ul li a:hover {
+    color: #14d353;
+}
+
+
+
+/* CSS for screens 933px or larger */
+@media screen and (min-width: 934px) {
+    .arrow {
+        display: inline-block; /* Show the arrow icon for screens larger than 933px */
+    }
+    header nav {
+        display: block; /* Show the header links for screens larger than 934px */
+    }
+    footer {
+        display: none; /* Hide the footer for screens larger than 934px */
+    }
+}
+
+/* CSS for screens 933px or smaller */
+@media screen and (max-width: 933px) {
+    .arrow {
+        display: none; /* Hide the arrow icon for screens 933px or smaller */
+    }
+    header nav {
+        display: none; /* Hide the header links for screens 934px or smaller */
+    }
+    footer {
+        display: block; /* Show the footer links for screens 934px or smaller */
+    }
+}
