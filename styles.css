@@ -161,7 +161,7 @@ footer {
     width: 100%;
     background-color: #151111;
     color: #FFFFFF;
-    padding: 0.2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -172,6 +172,7 @@ footer {
 
 .spacer {
     flex: 1; /* This will make the spacer take up all available space */
+    max-width: 100%;
 }
 
 footer ul {
@@ -215,13 +216,20 @@ footer nav ul li {
 
 /* CSS for screens 933px or smaller */
 @media screen and (max-width: 933px) {
-    .arrow {
-        display: none; /* Hide the arrow icon for screens 933px or smaller */
-    }
     header nav {
         display: none; /* Hide the header links for screens 934px or smaller */
     }
     footer {
         display: block; /* Show the footer links for screens 934px or smaller */
     }
+    .movie-list-item-img {
+        width: 176px; /* Adjust the width to your preference for smaller screens */
+        height: 260px; /* Adjust the height accordingly to maintain aspect ratio */
+    }
+    .movie-list-item-title {
+        top: 20%; /* Adjust the top position to move the title closer to the pictures */
+        left: 50%; /* Center the title horizontally */
+        transform: translateX(-50%); /* Center the title horizontally */
+    }
 }
+
