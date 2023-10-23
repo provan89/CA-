@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#000000;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
@@ -151,15 +151,18 @@ a.movie-link {
 }
 
 footer {
-    background-color: #151111;
-    color: #FFFFFF;
-    padding: 0.6rem;
+    width: 100%;
+    margin: 0;
+    padding: 0.2rem;
     display: flex;
     align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%; /* Make the footer 100% of the screen width */
-    box-sizing: border-box;
+    background-color: #151111;
+    position: fixed;
+    bottom: 0;
+}
+
+.spacer {
+    flex: 1; /* This will make the spacer take up all available space */
 }
 
 footer ul {
