@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     font-size: 36px;
 }
@@ -151,15 +156,19 @@ a.movie-link {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    margin: 0;
+    background-color: #151111;
+    color: #FFFFFF;
     padding: 0.2rem;
     display: flex;
     align-items: center;
-    background-color: #151111;
-    position: fixed;
-    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center; /* Center the content horizontally */
 }
+
 
 .spacer {
     flex: 1; /* This will make the spacer take up all available space */
