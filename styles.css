@@ -72,9 +72,11 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.video-content{
-   
+.container {
+    width: 100%; /* full width of the viewport */
+    box-sizing: border-box; /* include padding and border in the element's total width */
 }
+
 
 .movie-list-wrapper{
     position: relative;
@@ -289,7 +291,7 @@ footer nav ul li {
         right: 0; /* ensure it spans the entire width */
         /* ... other styles ... */
     }
-    
+
     .movie-list-item-img {
         width: 155px; 
         height: 260px; 
@@ -321,6 +323,14 @@ footer nav ul li {
         padding: 5px;
         margin-top: -100px;
     }
+   
+    .container > * {
+        padding-left: 5%; /* Example */
+        padding-right: 5%;
+        margin: 0; /* remove if unnecessary */
+    }
+    
+    
 
 
 }
