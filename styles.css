@@ -200,7 +200,10 @@ footer nav ul li {
     margin: 0 10px; 
 }
 
-
+.newf{
+    width: auto;
+    height: 360;
+}
 
 
 @media screen and (min-width: 734px) {
