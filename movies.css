@@ -201,3 +201,40 @@ transition: 1s all ease-in-out;
         text-decoration: none; 
         color: inherit; 
     }
+
+    @media screen and (min-width: 734px) {
+        .arrow {
+            display: inline-block; 
+        }
+        header nav {
+            display: block; 
+        }
+        footer {
+            display: none; 
+        }
+    }
+    
+    
+    @media screen and (max-width: 733px) {
+        header nav {
+            display: none; 
+        }
+        footer {
+            display: block; 
+        }
+    
+        .movie-list-item-img {
+            width: 155px; 
+            height: 260px; 
+            border-radius: 5px;
+        }
+        .movie-list-title {
+            margin-top: 15px; 
+        }
+    
+        .movie-list-item {
+            margin-right: 15px;
+            margin-top: -130px; 
+        }
+    
+    }

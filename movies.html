@@ -413,7 +413,40 @@
 </div>
     </div>
 </div>
-              <script src="script.js"></script> 
+<script>
+    const arrows = document.querySelectorAll(".arrow");
+    const movieLists = document.querySelectorAll(".movie-list");
+
+    arrows.forEach((arrow, i) => {
+        const itemNumber = movieLists[i].querySelectorAll("img").length;
+        let clickCounter = 0;
+        arrow.addEventListener("click", () => {
+            const ratio = Math.floor(window.innerWidth / 270);
+            clickCounter++;
+            if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
+                movieLists[i].style.transform = `translateX(${
+                    movieLists[i].computedStyleMap().get("transform")[0].x.value - 300
+                    }px)`;
+            } else {
+                movieLists[i].style.transform = "translateX(0)";
+                clickCounter = 0;
+            }
+        });
+
+        console.log(Math.floor(window.innerWidth / 270));
+    });
+</script>
+
+<footer>
+    <div class="spacer"></div>
+    <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house fa-2x"></i></a></li>
+        <li><a href="movies.html"><i class="fa-solid fa-desktop fa-2x"></i></a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></li>
+    </ul>
+</footer> 
 </body>
 
 </html>
