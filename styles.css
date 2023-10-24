@@ -203,7 +203,7 @@ footer nav ul li {
 
 
 /* CSS for screens 933px or larger */
-@media screen and (min-width: 934px) {
+@media screen and (min-width: 734px) {
     .arrow {
         display: inline-block; /* Show the arrow icon for screens larger than 933px */
     }
@@ -216,7 +216,7 @@ footer nav ul li {
 }
 
 /* CSS for screens 933px or smaller */
-@media screen and (max-width: 933px) {
+@media screen and (max-width: 733px) {
     header nav {
         display: none; /* Hide the header links for screens 934px or smaller */
     }
@@ -225,8 +225,8 @@ footer nav ul li {
     }
 
     .movie-list-item-img {
-        width: 190px; /* Adjust the width to your preference for smaller screens */
-        height: 300px; /* Adjust the height accordingly to maintain aspect ratio */
+        width: 155px; /* Adjust the width to your preference for smaller screens */
+        height: 260px; /* Adjust the height accordingly to maintain aspect ratio */
         border-radius: 5px;
     }
     .movie-list-title {
@@ -242,7 +242,4 @@ footer nav ul li {
         padding: 0;   
     }
  
-    .movie-list{
-        
-    }
 }
