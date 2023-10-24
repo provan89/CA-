@@ -234,7 +234,7 @@ footer nav ul li {
 .newf a.button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #FFFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -242,7 +242,7 @@ footer nav ul li {
 }
 
 .newf a.button:hover {
-    background-color: #45a049;
+    background-color: #14d353;
 }
 
 .newf img {
@@ -281,10 +281,15 @@ footer nav ul li {
     header nav {
         display: none; 
     }
+    
     footer {
-        display: block; 
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0; /* ensure it spans the entire width */
+        /* ... other styles ... */
     }
-
+    
     .movie-list-item-img {
         width: 155px; 
         height: 260px; 
