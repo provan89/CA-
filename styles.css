@@ -68,6 +68,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+
 .movie-list-wrapper{
     position: relative;
 
@@ -222,14 +223,18 @@ footer nav ul li {
     footer {
         display: block; /* Show the footer links for screens 934px or smaller */
     }
-    .movie-list-item-img {
-        width: 176px; /* Adjust the width to your preference for smaller screens */
-        height: 260px; /* Adjust the height accordingly to maintain aspect ratio */
-    }
-    .movie-list-item-title {
-        top: 20%; /* Adjust the top position to move the title closer to the pictures */
-        left: 50%; /* Center the title horizontally */
-        transform: translateX(-50%); /* Center the title horizontally */
-    }
-}
 
+    .movie-list-item-img {
+        width: 190px; /* Adjust the width to your preference for smaller screens */
+        height: 300px; /* Adjust the height accordingly to maintain aspect ratio */
+        border-radius: 5px;
+    }
+    .movie-list-title {
+        margin-top: 15px; /* Adjust the margin to move the title closer to the images */
+    }
+
+    .movie-list-item {
+        margin-right: 15px; /* Adjust the margin between images for smaller screens */
+    }
+ 
+}
