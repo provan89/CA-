@@ -1,10 +1,14 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     overflow-x: hidden;
+}
+
+.main-content-container { /* Replace '.main-content-container' with the selector of your main content container if you have one. */
+    padding-bottom: 50px; /* Adjust this value based on the height of your footer. */
 }
 
 body, html {
@@ -160,9 +164,7 @@ a.movie-link {
 }
 
 footer {
-    position: fixed;
     bottom: 0;
-    width: 100%;
     background-color: #151111;
     color: #FFFFFF;
     padding: 1rem;
@@ -170,7 +172,29 @@ footer {
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    justify-content: center; /* Center the content horizontally */
+    justify-content: center; 
+    box-sizing: border-box;
+    padding-left: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 0;
+    margin-right: -50vw;
+}
+
+footer, 
+element-before-footer { /* Replace 'element-before-footer' with the actual selector of the element before your footer. */
+    margin-bottom: 0;
+}
+
+
+.footer-content {
+    width: 100%; /* or whatever the width of .container is */
+    max-width: 1200px; /* example max-width, adjust if your .container has one */
+    margin: 0 auto; /* center the .footer-content */
+    padding-left: 20px; /* if your .container has padding-left, match it here */
 }
 
 
