@@ -234,7 +234,15 @@ footer nav ul li {
     }
 
     .movie-list-item {
-        margin-right: 15px; /* Adjust the margin between images for smaller screens */
+        margin-right: 15px;
+        margin-top: -130px; /* Adjust the margin between images for smaller screens */
+    }
+
+    .movie-list-title{
+        padding: 0;   
     }
  
+    .movie-list{
+        
+    }
 }
