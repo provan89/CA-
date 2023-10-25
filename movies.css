@@ -212,6 +212,10 @@ transition: 1s all ease-in-out;
         footer {
             display: none; 
         }
+
+        .godzillatxt2{
+            display: none;
+        }
     }
     
     
@@ -236,5 +240,21 @@ transition: 1s all ease-in-out;
             margin-right: 15px;
             margin-top: -130px; 
         }
-    
-    }
+
+        .godzilla {
+            width: 100%; /* adjust as needed */
+            height: 300px; /* maintain aspect ratio */
+            /* any other adjustments you want to make */
+        }
+
+        .godzillatxt{
+           display: none;
+        }
+
+        .godzillatxt2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+}
