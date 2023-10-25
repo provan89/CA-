@@ -6,9 +6,6 @@ body {
     color: #FFFFFF;
 }
 
-h1{
-    font-size: 36px;
-}
 h2 {
     color: #FFFFFF;
 }
@@ -220,6 +217,14 @@ footer nav ul li {
     footer {
         display: none; 
     }
+
+    h1{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 30px;
+    }
    
 }
 
@@ -241,5 +246,13 @@ footer nav ul li {
         bottom: 0;
         left: 0;
         right: 0;  
+    }
+
+    h1{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 18px;
     }
 }

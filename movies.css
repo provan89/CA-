@@ -7,9 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-h1{
-    font-size: 36px;
-}
 h2 {
     color: #FFFFFF;
 }
@@ -285,6 +282,14 @@ transition: 1s all ease-in-out;
         .toytxt2{
             display: none;
         }
+
+        h1{
+            font-size: 36px;
+        }
+
+        p{
+            font-size: 30px;
+        }
     }
     
     
@@ -322,7 +327,7 @@ transition: 1s all ease-in-out;
 
         .godzillatxt2{
             text-align: center;
-            font-size: 30px;
+           
         }
 
         .toytxt{
@@ -331,7 +336,15 @@ transition: 1s all ease-in-out;
 
         .toytxt2{
             text-align: center;
-            font-size: 30px;
+           
+        }
+
+        h1{
+            font-size: 22px;
+            font-weight: bolder;
+        }
+        p{
+            font-size: 18px;
         }
 
 

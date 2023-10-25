@@ -16,9 +16,6 @@ body, html {
     padding: 0;
 }
 
-h1{
-    font-size: 36px;
-}
 h2 {
     color: #FFFFFF;
 }
@@ -264,6 +261,14 @@ footer nav ul li {
         display: block; 
     }
 
+    h1{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
    
 }
 
@@ -320,16 +325,11 @@ footer nav ul li {
     a.button:hover {
         background-color: #14d353;
     }
-    
-  
-
-    
-  
-   
-
-  
-   
-    
-
-
+    h1{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 18px;
+    }
 }
