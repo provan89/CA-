@@ -73,7 +73,6 @@ nav ul li a:hover {
 
 .intro{
     max-width: 500px;
-    font-size: 30px;
     margin-left: 260px;
     margin-top: -200px;
 }
@@ -275,4 +274,46 @@ footer nav ul li {
         p{
             font-size: 18px;
         }
+
+        .godzilla-movie {
+            width: 110px; 
+            height: auto; 
+            display: block; 
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .intro{
+            max-width: 500px;
+            margin-left: 140px;
+            margin-top: -160px;
+        }
+
+        @media screen and (max-width: 733px) {
+            .input-field, .input-field-ccv {
+                font-size: 22px;
+                height: 30px;
+                padding: 5px;
+            }
+        
+            .forms-row {
+                font-size: 22px;
+            }
+        
+            .Checkout {
+                font-size: 22px;
+                padding: 10px 20px;
+            }
+
+            {
+                .input-field, 
+                .input-field-ccv,
+                .forms-row,
+                .Checkout {
+                    font-size: 22px;
+                    margin-left: 20px;
+                }
+        }
+        
 }

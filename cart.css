@@ -63,7 +63,6 @@ nav ul li a:hover {
 
 .Empty-cart{
     text-align: center;
-    font-size: 30px;
     padding-top: 12px;
 }
 
@@ -81,7 +80,6 @@ nav ul li a:hover {
 
 .film-lovers{
     text-align: center;
-    font-size: 30px;
     margin-top: -5px;
 }
 
@@ -179,5 +177,12 @@ footer nav ul li {
     }
     p{
         font-size: 18px;
+    }
+
+    .logo-cart{
+        width: 40%; 
+        display: block;
+        margin: 0 auto; 
+        padding-top: 140px;
     }
 }
