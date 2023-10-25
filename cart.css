@@ -185,4 +185,11 @@ footer nav ul li {
         margin: 0 auto; 
         padding-top: 140px;
     }
+
+    .logo-cart{
+        width: 25%; 
+        display: block;
+        margin: 0 auto; 
+        padding-top: 140px;
+    }
 }

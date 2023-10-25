@@ -255,65 +255,91 @@ footer nav ul li {
 
 }
 
-    @media screen and (max-width: 733px) {
-        header nav {
-            display: none; 
-        }
-        
-        footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;  
-        }
+@media screen and (max-width: 733px) {
+    header nav {
+        display: none; 
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;  
+    }
 
-        h1{
-            font-size: 22px;
-            font-weight: bolder;
-        }
-        p{
-            font-size: 18px;
-        }
+    h1 {
+        font-size: 22px;
+        font-weight: bolder;
+    }
 
-        .godzilla-movie {
-            width: 110px; 
-            height: auto; 
-            display: block; 
-            margin-left: 20px;
-            margin-top: 20px;
-            margin-bottom: 15px;
-        }
+    p {
+        font-size: 18px;
+    }
 
-        .intro{
-            max-width: 500px;
-            margin-left: 140px;
-            margin-top: -160px;
-        }
+    .godzilla-movie {
+        width: 110px; 
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
 
-        @media screen and (max-width: 733px) {
-            .input-field, .input-field-ccv {
-                font-size: 22px;
-                height: 30px;
-                padding: 5px;
-            }
-        
-            .forms-row {
-                font-size: 22px;
-            }
-        
-            .Checkout {
-                font-size: 22px;
-                padding: 10px 20px;
-            }
+    .intro {
+        max-width: 500px;
+        margin-left: 140px;
+        margin-top: -160px;
+    }
 
-            {
-                .input-field, 
-                .input-field-ccv,
-                .forms-row,
-                .Checkout {
-                    font-size: 22px;
-                    margin-left: 20px;
-                }
-        }
-        
+    .input-field, 
+    .input-field-ccv,
+    .forms-row,
+    .Checkout {
+        font-size: 22px;
+        margin-left: 0px;
+    }
+
+    .input-field, .input-field-ccv {
+        height: 30px;
+        padding: 5px;
+    }
+
+    .Checkout {
+        padding: 10px 20px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .forms-row {
+        margin-left: 0; 
+        margin-top: 0;
+    }
+
+    .container{
+        margin-left: 32%;
+        margin-top: 20px;
+    }
+
+    .Checkout{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .film{
+        text-align: center;
+        font-size: 22px;
+        margin-top: -50px;
+        z-index: 1;
+        margin-left: -310px;
+        padding-bottom: 80px;
+    }
+
+    .lgo {
+        width: 70%; 
+        display: block;
+        margin: 0 auto; 
+        padding-top: 330px;
+        margin-left: -130px;
+        padding-bottom: 50px;
+    }
 }

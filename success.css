@@ -67,13 +67,11 @@ h1{
 
 .thank{
     text-align: center;
-    font-size: 30px;
     margin-top: 100px;
 }
 
 .enjoy{
     text-align: center;
-    font-size: 30px;
     margin-top: 0px;
 }
 
@@ -85,7 +83,6 @@ h1{
 
 .love{
     text-align: center;
-    font-size: 30px;
     margin-top: -20px;
 }
 
@@ -199,5 +196,15 @@ footer nav ul li {
     }
     p{
         font-size: 18px;
+    }
+
+    .logoend{
+        max-width: 120px;
+        margin-left: 36%;
+        margin-top: 80px;
+    }
+    
+    .love{
+        margin-top: 2px;
     }
 }

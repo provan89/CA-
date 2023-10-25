@@ -199,4 +199,18 @@ footer nav ul li {
         p{
             font-size: 18px;
         }
+
+        .product-button {
+            display: inline-block;
+            background-color: #FFFFFF;
+            color: #000000;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+        }
     }
