@@ -49,8 +49,8 @@ nav ul li a:hover {
 }
 
 .green-text {
-    color: #00FF00; /* Set color to green */
-    font-weight: bold; /* Set font weight to bold */
+    color: #00FF00; 
+    font-weight: bold; 
 }
 
 h1{
@@ -77,7 +77,7 @@ h1{
 
 .logoend{
     max-width: 200px;
-    margin-left: 46%;
+    margin-left: 44%;
     margin-top: 80px;
 }
 
@@ -175,8 +175,8 @@ footer nav ul li {
     .abouttxt2,
     .abouttxt3,
     .abouttxt4 {
-        width: 90%; /* Adjust the width for smaller screens */
-        padding: 0; /* Remove padding for smaller screens if necessary */
+        width: 90%; 
+        padding: 0; 
     }
     
     header nav {
