@@ -67,17 +67,20 @@ nav ul li a:hover {
 
 .movie-list-container{
     padding: 20px;
+    overflow-y: hidden;
 
 }
 
 .movie-list-container2{
     padding: 20px;
+    overflow-y: hidden;
 
 }
 
 .movie-list-container3{
     padding: 20px;
     margin-left: -18px;
+    overflow-y: hidden;
 
 }
 
@@ -112,21 +115,21 @@ nav ul li a:hover {
     grid-auto-columns: 23%;
 
     overflow-x: auto;
+    overflow-y: hidden;
     overscroll-behavior-inline: contain;
+
 
 }
 
 .movie-list{
     display: flex;
     align-items: center;
-    height: 440px;
- 
-    
+    height: 400px;
+    padding-bottom: 30px;
 }
 
 .movie-list-item{
     margin-right: 30px;
-
 }
 
 .movie-list-item:hover .movie-list-item-img{
