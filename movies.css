@@ -78,6 +78,7 @@ nav ul li a:hover {
     align-items: center;
     height: 400px;
     padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 .movie-list-item{
