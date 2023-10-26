@@ -70,6 +70,16 @@ nav ul li a:hover {
 
 }
 
+.movie-list-container2{
+    padding: 20px;
+
+}
+
+.movie-list-container3{
+    padding: 20px;
+
+}
+
 .container {
     width: 100%; 
     box-sizing: border-box; 
@@ -286,6 +296,21 @@ footer nav ul li {
 @media screen and (max-width: 733px) {
     header nav {
         display: none; 
+    }
+
+    .movie-list-container{
+        padding: 20px;
+        height: 300px;
+    }
+
+    .movie-list-container2{
+        padding: 20px;
+        height: 300px;
+    }
+
+    .movie-list-container3{
+        padding: 20px;
+        height: 300px;
     }
     
     footer {
