@@ -77,6 +77,7 @@ nav ul li a:hover {
 
 .movie-list-container3{
     padding: 20px;
+    margin-left: -18px;
 
 }
 
@@ -84,6 +85,24 @@ nav ul li a:hover {
     width: 100%; 
     box-sizing: border-box; 
 }
+
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .product-button:hover {
+    background-color: #14d353;
+  }
 
 
 .movie-list-wrapper{
@@ -100,7 +119,7 @@ nav ul li a:hover {
 .movie-list{
     display: flex;
     align-items: center;
-    height: 380px;
+    height: 440px;
  
     
 }
@@ -312,7 +331,7 @@ footer nav ul li {
         padding: 20px;
         height: 300px;
         z-index: 1;
-        margin-top: -110px;
+        margin-top: -170px;
         margin-left: -18px;
         
     }
@@ -349,21 +368,7 @@ footer nav ul li {
     .watchour{
         text-align: center;
     }
-
-    .newf a.button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #FFFF;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        color: #000000;
-        font-weight: bolder;
-    }
-    
-    a.button:hover {
-        background-color: #14d353;
-    }
+      
     h1{
         font-size: 22px;
         font-weight: bolder;
