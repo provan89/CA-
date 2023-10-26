@@ -156,6 +156,9 @@ footer nav ul li {
     p{
         font-size: 30px;
     }
+    footer{
+        display: none;
+    }
 }
     
 
