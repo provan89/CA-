@@ -62,7 +62,13 @@ nav ul li a:hover {
 }
 
 .movie-list-wrapper{
-    position: relative;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    grid-auto-columns: 23%;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
 
 }
 

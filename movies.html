@@ -84,7 +84,7 @@
                         </a>
                         </div>
                     </div>
-                    <i class="fa-solid fa-chevron-right arrow"></i>
+                    
     </div>
 </div>
 <div class="movie-list-container">
@@ -144,7 +144,7 @@
             
             </div>
         </div>
-        <i class="fa-solid fa-chevron-right arrow"></i>
+        
 </div>
 
 </div>
@@ -221,7 +221,7 @@
              
             </div>
         </div>
-        <i class="fa-solid fa-chevron-right arrow"></i>
+        
 
 <div class="container">
     <div class="content-container">
@@ -278,7 +278,7 @@
                     </a>
                     </div>
                 </div>
-                <i class="fa-solid fa-chevron-right arrow"></i>
+               
 </div>
 </div>
 
@@ -344,7 +344,7 @@
             </a>
             </div>
         </div>
-        <i class="fa-solid fa-chevron-right arrow"></i>
+        
 </div>
 </div>
 <div class="movie-list-container">
@@ -404,33 +404,11 @@
 
 </div>
 </div>
-<i class="fa-solid fa-chevron-right arrow"></i>
+
 </div>
     </div>
 </div>
-<script>
-    const arrows = document.querySelectorAll(".arrow");
-    const movieLists = document.querySelectorAll(".movie-list");
 
-    arrows.forEach((arrow, i) => {
-        const itemNumber = movieLists[i].querySelectorAll("img").length;
-        let clickCounter = 0;
-        arrow.addEventListener("click", () => {
-            const ratio = Math.floor(window.innerWidth / 270);
-            clickCounter++;
-            if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
-                movieLists[i].style.transform = `translateX(${
-                    movieLists[i].computedStyleMap().get("transform")[0].x.value - 300
-                    }px)`;
-            } else {
-                movieLists[i].style.transform = "translateX(0)";
-                clickCounter = 0;
-            }
-        });
-
-        console.log(Math.floor(window.innerWidth / 270));
-    });
-</script>
 
 <footer>
     <div class="spacer"></div>
