@@ -261,7 +261,7 @@ footer nav ul li {
     margin: 0 10px; 
 }
 
-@media screen and (min-width: 734px) {
+@media screen and (min-width: 1025px) {
   
     header nav {
         display: block; 
@@ -277,10 +277,28 @@ footer nav ul li {
     p{
         font-size: 30px;
     }
+
+    .aboutlogo{
+        margin-top: 40px;
+    }
    
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 1024px) {
+    p{
+        font-size: 24px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) { 
     .abouttxt,
     .abouttxt2,
     .abouttxt3,
@@ -310,6 +328,14 @@ footer nav ul li {
 
     .abouttxt4{
         padding-bottom: 40px;
+    }
+
+    .aboutlogo{
+        margin-top: 40px;
+    }
+    
+    .abouttxt4{
+        padding-bottom: 100px;
     }
    }
 
