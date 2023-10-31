@@ -51,9 +51,9 @@ nav ul li a:hover {
 .product-movie {
     display: block;
     margin: 0 auto; 
-    max-width: 40%; 
-    height: auto; 
-    padding-top: 90px;
+    max-width: 50%; 
+    height: 300px; 
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -67,6 +67,7 @@ nav ul li a:hover {
 
 .button-container {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .product-button {
