@@ -152,12 +152,7 @@ text-align: center;
     margin-left: 20px; 
 }
 
-.lgo {
-    width: 20%; 
-    display: block;
-    margin: 0 auto; 
-    padding-top: 140px;
-}
+
 
 .Checkout{
     margin-top: 40px;
@@ -334,12 +329,5 @@ footer nav ul li {
         padding-bottom: 80px;
     }
 
-    .lgo {
-        width: 70%; 
-        display: block;
-        margin: 0 auto; 
-        padding-top: 330px;
-        margin-left: -130px;
-        padding-bottom: 50px;
-    }
+
 }
